@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    max-width: 500px;
+    max-height: 500px;
+    margin: auto auto;
+    background-color:whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.grid{
+    background-color: black;
+    flex-shrink: 0;
+    flex-grow: 0;
+    z-index: 2;
+    pointer-events: auto;
+}
+
+button{
+    background-color: green;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+}
